@@ -5,17 +5,17 @@ This is an API Mocker for the weather service openweathermap.org.
 http://3.88.169.107:7878/data/2.5/weather
 ## Prerequisites
 ### Procedure
-#### Node version manager (nvm) is installed by typing the following at the command line.
+#### 1)Node version manager (nvm) is installed by typing the following at the command line.
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
-#### nvm is activated by typing the following at the command line.
+#### 2)nvm is activated by typing the following at the command line.
  . ~/.nvm/nvm.sh
- #### Use nvm to install the latest version of Node.js by typing the following at the command line.
+ #### 3)Use nvm to install the latest version of Node.js by typing the following at the command line.
   nvm install node
-#### The apimocker should be installed using the npm.
+#### 4)The apimocker should be installed using the npm.
 node -e "console.log('Running Node.js ' + process.version)"
-#### git is installed using
+#### 5)git is installed using
  sudo yum install git   
- #### api mocker is installed
+ #### 6)api mocker is installed
   npm install -g apimocker
 ## Clone the git repository
 git clone https://github.com/pkurapaty7/assignment_2.git
