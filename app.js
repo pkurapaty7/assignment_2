@@ -40,7 +40,7 @@ function post_auth(req,res){
           //res.send(customer)
           if(usernames.includes(login.username)){
             if(passwords.includes(login.password)){
-                res.json({ "access-token" : "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IlByZWV0aGkiLCJpYXQiOjE1MTYyMzkwMjJ9.BlWCMZG2SHus_FHOh7qO7tYjaF1em--UGT9D63p47cU", "expires":  new Date()
+                res.json({ "access-token" : "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IlByZWV0aGkiLCJpYXQiOjE1MTYyMzkwMjJ9.BlWCMZG2SHus_FHOh7qO7tYjaF1em--UGT9D63p47cU", "expires":  new Date()})
             }
         }
 
